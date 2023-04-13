@@ -1,0 +1,343 @@
+    /*reset css*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*
+    */
+
+    /*id*/
+    #titulo{
+        color: rgba(255, 51, 0, 0.719);
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 65px;
+    }
+    /*
+    */
+
+
+    /*id*/
+    #subtitulo{
+        color: rgba(219, 169, 32, 0.719);
+        text-align: center;
+        text-transform: uppercase;
+        text-align: center
+    }
+
+    /*
+    */
+
+    /*class*/
+    .menu{
+        color: crimson;
+        display:inline-block;
+        text-align: center;
+    /* border: 2px solid black;  grosor y color del borde */
+        padding: 10px 20px; /* espacio interior del elemento */
+        border-width: 4px;
+        
+    }
+    /*
+    */
+
+    .dropdown ul{
+        display: none;
+        position: absolute;
+        top: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /**********headear***********/
+
+    .header{
+        bottom: 100;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1000;
+    }
+
+
+
+
+    body{
+        background-color: rgb(255, 255, 255);
+        padding-top: 103px;
+        padding-bottom: 103px;
+        height: 100%;
+    }
+
+    header{
+        padding: 1% 3%;
+        background-color: rgb(233, 235, 193);
+        height: 100px;
+    }
+
+
+    header div,
+    header nav{
+        display: inline-block ;
+        vertical-align: middle;
+    }
+
+    header nav ul li{
+        display: inline;
+        position: relative;
+    }
+
+    header nav ul li ul{
+        position: relative;
+        display: none;
+        left: 0;
+    }
+
+    header nav ul li:hover ul{
+        display: block;
+    }
+
+    header div{
+        width: 20%;
+    }
+
+    header nav{
+        width: 74%;
+        text-align: right;
+    }
+
+    header div img{
+        width: 100%;
+    }
+
+    header nav ul li a{
+        text-decoration: none;
+    }
+
+    /*logo*/
+    .logo{
+        width: %;
+    }
+
+        
+    /*id*/
+    .body{
+        height: 150vh;
+        background-image: url(../img/imagen-de-fonde-3.jpg);
+        background-position:center ;
+        background-repeat: repeat;
+        background-size:cover;
+    }
+
+    .bodymanicura{
+        background-color: beige;
+    }
+
+
+    /*class*/
+    .subtitulosunas{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem; /* Tamaño de fuente */
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+        color: #ff69b4; /* Color del texto */
+        font-weight: bold; /* Grosor de la fuente */
+        text-transform: uppercase; /* Transformar el texto a mayúsculas */
+
+    }
+
+    .texto{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1rem; /* Tamaño de fuente */
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+        color: #030a29; /* Color del texto */
+        text-transform: uppercase; /* Transformar el texto a mayúsculas */
+
+    }
+
+    .tipodeesculpido{
+        color: cadetblue;
+        text-align: left;
+    }
+
+    .sale{
+        display: block;
+        width: 100%;
+        height: 50px;
+    }
+
+    .sale2 :hover{
+        transform: scale(1.01) rotate(0deg);
+        transition: transform 0.5s ease;
+        filter: brightness(1.2) contrast(1.2);
+    }
+
+    /**********FOOTER***********/
+
+    .footer{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    } 
+
+    .enlaces{
+        display: inline-block;
+        position: relative;
+        width: 300px;
+        max-width: 90%;
+        max-height: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    .enlaces img{
+        display: inline-block;
+        position: relative;
+        height: auto;
+        max-width: 90%;
+        max-height: 100px;
+    }
+
+
+    /**********MANICURA***********/
+    .image-text-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .image-text-container img {
+        width: 50%; /* Ajusta el tamaño de la imagen según sea necesario */
+    }
+    
+    .text-container {
+        flex-grow: 1;
+    } 
+    .ultima-seccion{
+        margin-bottom: 20px; 
+    }
+    
+    
+    /**********Formulario***********/
+    .form{
+        border: 2px solid black;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        background-color: beige;
+        margin: auto;
+        width: 100%;
+        padding-top: 103px;
+
+    }
+
+    .form button[type="submit"] {
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      .form label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      
+      .form input[type="text"],
+      .form input[type="email"],
+      .form textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 20px;
+      }
+      
+      .form textarea {
+        height: 150px;
+      }
+      
+      .form input[type="submit"] {
+        background-color: #0077ff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+     
+    
+      .imgubicacion {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .imgubicacion iframe,
+      .imgubicacion img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        flex-basis: 50%; /* Añadido para mostrar las imágenes una al lado de la otra */
+      }
+      
+      .mapa {
+        border: 1px solid black;
+      }
+      
+
+      /**********GALERIA***********/
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 5px;
+        margin: 5px;
+      }
+      
+      .grid-item {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        margin: 5px;
+        overflow: hidden; /* para ocultar partes de la imagen que excedan el contenedor */
+      }
+      
+      .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* para hacer que la imagen cubra todo el contenedor */
+        object-position: center; /* para centrar la imagen */
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .grid-item:hover img {
+        transform: scale(1.1);
+      }
